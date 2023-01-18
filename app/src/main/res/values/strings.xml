@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hojicha</string>
+    <string-array name="models">
+        <item>Weierstrass model</item>
+        <item>Poincaré disc model</item>
+        <item>Beltrami-Klein model</item>
+        <item>Half plane model</item>
+    </string-array>
+</resources>

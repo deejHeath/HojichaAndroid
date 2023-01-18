@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:background="@android:color/white"
+    tools:context=".MeasureActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:padding="0sp"
+        android:scrollbarSize="25sp"
+        android:layout_alignParentTop="true" >
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="850dp"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/white"
+            android:text="-Measure-" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Distance between 2 POINTS" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button20"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Angle from 3 POINTS" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button21"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Area of triangle from 3 POINTS" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button22"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Circumference of CIRCLE" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button23"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Area of CIRCLE" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button24"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Sum of 2 MEASURES" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button25"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Difference of 2 MEASURES" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button26"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Product of 2 MEASURES" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button27"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Ratio of 2 MEASURES" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button28"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/white"
+            android:text="-Display-" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Hide OBJECT" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button29"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Show or hide label of OBJECT" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button30"
+            android:textAllCaps="false"
+            android:backgroundTint="#ffffff"
+            android:textColor="#0000ff"
+            android:textSize="12dp"
+            android:text="Translate" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
